@@ -1,0 +1,32 @@
+{
+  "name": "create-feature-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "create-feature": "./dist/index.js"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "create-feature"
+  ],
+  "author": "Saeed khalilabadi",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "description": "create the new future folders on react projects by vite"
+}
